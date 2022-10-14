@@ -1,0 +1,21 @@
+.wrapper-navbar {
+  background-color: #0b3954;
+  box-shadow: 0px 5px 10px #888888;
+  .container {
+    .navbar-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div {
+        h1 {
+          color: #bfd7ea;
+        }
+      }
+      a {
+        margin: 1rem;
+        text-decoration: none;
+        color: #bfd7ea;
+      }
+    }
+  }
+}
