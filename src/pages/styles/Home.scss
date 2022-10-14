@@ -1,0 +1,31 @@
+.wrapper-banner {
+  width: 100%;
+  max-width: 100vw;
+  height: 500px;
+  background-image: url(../../images/banner.jpg);
+  background-position-y: -400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  img {
+    width: 30%;
+    height: fit-content;
+  }
+  div {
+    p {
+      width: 500px;
+    }
+    .text1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: larger;
+    }
+  }
+}
